@@ -15,6 +15,8 @@ Run `npm install` after clone this project.
 
 Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+After build this project you can access index.html in `dist` folder.
+
 ## Further help
 
 To get more help and documentation about Talwind or Postcss or Webpack you can visit these websites:
