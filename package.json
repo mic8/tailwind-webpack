@@ -1,0 +1,38 @@
+{
+    "name": "tailwind-webpack",
+    "version": "1.0.0",
+    "description": "Webpack skeleton pack using tailwind & postcss",
+    "private": false,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npx webpack --config webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mic8/tailwind-webpack.git"
+    },
+    "keywords": [
+        "atnaker",
+        "docs"
+    ],
+    "author": "Michael Reynald",
+    "license": "MIT",
+    "dependencies": {
+        "tailwindcss": "^1.9.6"
+    },
+    "devDependencies": {
+        "copy-webpack-plugin": "^6.3.0",
+        "css-loader": "^5.0.1",
+        "dotenv": "^8.2.0",
+        "file-loader": "^6.2.0",
+        "postcss": "^8.1.6",
+        "postcss-loader": "^4.0.4",
+        "prettier": "^2.1.2",
+        "pretty-quick": "^3.1.0",
+        "sass": "^1.29.0",
+        "sass-loader": "^10.0.5",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.4.0",
+        "webpack-cli": "^4.2.0"
+    }
+}
